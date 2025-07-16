@@ -70,5 +70,15 @@ Next, I explored the trends in temperature anomalies and CO₂ concentrations ov
 
 The time-series analysis reveals a clear upward trend in both CO₂ concentrations and global temperature anomalies over time. CO₂ levels are rising at an average rate of 8.3 ppm per decade, while temperatures are increasing by approximately 0.26°C per decade. This parallel growth highlights a strong visual correlation between the two variables, reinforcing the connection between rising carbon emissions and global warming. The alignment of these trends over time provides compelling evidence of CO₂’s role in driving temperature increases.
 
+### Correlation Heatmap
+![Correlation Heatmap](https://github.com/Petkofi/Global-Carbon-Emission-Impact-Analysis/blob/main/Correlation%20Heatmap.png)
+
+The correlation heatmap highlights a strong positive relationship (r = 0.96) between CO₂ concentrations and temperature anomalies, confirming that increases in atmospheric CO₂ are closely associated with rising global temperatures. The diagonal line reflects perfect self-correlation, validating the structure of the matrix, while the deep blue hues emphasize the strength of the correlation between key variables. This reinforces the need to focus on reducing carbon emissions as a critical strategy in addressing climate change.
+
+### Scatter Plot with Marginal Distributions
+![Scatter Plot ]()
+
+The scatter plot with marginal distributions illustrates a strong linear relationship between CO₂ concentrations and temperature anomalies, with a Pearson correlation of 0.96. The fitted regression line indicates that a 100 ppm rise in CO₂ could lead to an estimated 3.18°C increase in global temperature, emphasizing climate sensitivity. The marginal histograms show that both variables follow approximately normal distributions, with temperature values ranging from -0.25°C to 1.55°C and CO₂ concentrations from 158.9 to 209.5 ppm. With 62 overlapping data points, the plot provides robust visual and statistical evidence of the strong connection between carbon emissions and global warming, reinforcing the urgency for emission-reduction policies.
+
 ![--](https://github.com/Petkofi/Netflix-Content-Analysis-A-Comprehensive-Intelligence-Framework-for-Data-Driven-Decisions/blob/main/divider.png)
 
