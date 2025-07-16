@@ -49,6 +49,6 @@ To conduct this analysis, we will utilize two main datasets:
 - Temperature Data – Yearly records of temperature anomalies (°C) spanning multiple decades.- 
 - CO₂ Data – Monthly measurements of global atmospheric carbon dioxide levels, reported in parts per million (ppm).
 I loaded this dataset into the Google Colab environment. Below is the preview:
-![Data preview]()
+![Data preview](https://github.com/Petkofi/Global-Carbon-Emission-Impact-Analysis/blob/main/data%20preview.png)
 
 ![--](https://github.com/Petkofi/Netflix-Content-Analysis-A-Comprehensive-Intelligence-Framework-for-Data-Driven-Decisions/blob/main/divider.png)
