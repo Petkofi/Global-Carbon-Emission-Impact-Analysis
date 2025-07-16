@@ -63,3 +63,12 @@ The temperature data ranges from -2.06°C to 3.69°C, covering a span of 5.75°C
 
 ![--](https://github.com/Petkofi/Netflix-Content-Analysis-A-Comprehensive-Intelligence-Framework-for-Data-Driven-Decisions/blob/main/divider.png)
 
+## Time-Series Analysis
+Next, I explored the trends in temperature anomalies and CO₂ concentrations over time, and analyze the relationship between these two variables.
+
+![Time Series Analysis]()
+
+The time-series analysis reveals a clear upward trend in both CO₂ concentrations and global temperature anomalies over time. CO₂ levels are rising at an average rate of 8.3 ppm per decade, while temperatures are increasing by approximately 0.26°C per decade. This parallel growth highlights a strong visual correlation between the two variables, reinforcing the connection between rising carbon emissions and global warming. The alignment of these trends over time provides compelling evidence of CO₂’s role in driving temperature increases.
+
+![--](https://github.com/Petkofi/Netflix-Content-Analysis-A-Comprehensive-Intelligence-Framework-for-Data-Driven-Decisions/blob/main/divider.png)
+
