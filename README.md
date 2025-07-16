@@ -19,6 +19,7 @@ The dataset used in this analysis is sourced from Statso and represents data com
 ![--](https://github.com/Petkofi/Netflix-Content-Analysis-A-Comprehensive-Intelligence-Framework-for-Data-Driven-Decisions/blob/main/divider.png)
 
 ## Problem Statement
+Climate change, fueled by increasing CO₂ concentrations, has become a pressing global concern, highlighting the urgent need for data-driven insights to inform effective policy-making.
 This analysis seeks to understand the impact of carbon emissions on global temperatures by examining the relationship between key climate variables—including CO₂ concentrations, temperature anomalies, and their temporal dynamics—and how they collectively inform climate response strategies.
 
 ### Core Objectives:
