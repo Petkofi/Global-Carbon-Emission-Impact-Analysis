@@ -55,12 +55,11 @@ I loaded this dataset into the Google Colab environment. Below is the preview:
 ![--](https://github.com/Petkofi/Netflix-Content-Analysis-A-Comprehensive-Intelligence-Framework-for-Data-Driven-Decisions/blob/main/divider.png)
 
 ## Basic Statistics for Temperature Changes and Carbon Emission Concentration
-To conduct this analysis, we will utilize two main datasets:
-- Temperature Data – Yearly records of temperature anomalies (°C) spanning multiple decades.- 
-- CO₂ Data – Monthly measurements of global atmospheric carbon dioxide levels, reported in parts per million (ppm).
-I loaded this dataset into the Google Colab environment. Below is the preview:
+Next, I computed essential statistical measures—such as the mean, median, variance, etc, for both temperature anomalies and CO₂ concentrations.
 
-![Basic Stats]()
+![Basic Stats](https://github.com/Petkofi/Global-Carbon-Emission-Impact-Analysis/blob/main/Basic%20Stats.png)
+
+The temperature data ranges from -2.06°C to 3.69°C, covering a span of 5.75°C, with a modest skewness of 0.48 indicating a slight right-tailed distribution. Its interquartile range (0.88°C) and relatively low variability suggest moderate fluctuations over time. In contrast, CO₂ concentrations vary significantly more, ranging from -0.10 ppm to 424.00 ppm, with a spread of 424.10 ppm and a standard deviation of 180.55 ppm. The kurtosis value of -1.94 indicates lighter tails, pointing to fewer extreme outliers. Overall, CO₂ data shows much greater fluctuation compared to temperature anomalies, highlighting the more volatile nature of atmospheric carbon levels across the dataset. Both datasets are complete, with no missing values.
 
 ![--](https://github.com/Petkofi/Netflix-Content-Analysis-A-Comprehensive-Intelligence-Framework-for-Data-Driven-Decisions/blob/main/divider.png)
 
