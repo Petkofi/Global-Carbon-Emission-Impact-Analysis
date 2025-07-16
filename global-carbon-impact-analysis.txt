@@ -1,0 +1,26 @@
+📁 global-carbon-impact-analysis/
+├── 📄 README.md               # Project overview with interactive badges
+├── 📄 requirements.txt        # Python dependencies
+├── 📄 LICENSE
+│
+├── 📁 data/                   # All datasets (keep small files)
+│   ├── 📄 temperature.csv     # Global temperature anomalies
+│   ├── 📄 co2_emissions.csv   # CO₂ concentration data
+│   └── 📄 metadata.md         # Data sources & descriptions
+│
+├── 📁 notebooks/              # Jupyter notebooks
+│   ├── 📄 1_data_cleaning.ipynb
+│   ├── 📄 2_trend_analysis.ipynb
+│   ├── 📄 3_impact_modeling.ipynb
+│   └── 📄 4_scenario_analysis.ipynb
+│
+├── 📁 src/                    # Python modules
+│   ├── 📄 visualization.py    # Plotting functions
+│   └── 📄 analysis.py        # Statistical models
+│
+├── 📁 docs/                   # Generated reports
+│   └── 📄 final_report.md     # Key findings with visualizations
+│
+└── 📁 outputs/                # Generated files
+    ├── 📁 figures/            # Exportable plots
+    └── 📁 models/             # Saved model weights
