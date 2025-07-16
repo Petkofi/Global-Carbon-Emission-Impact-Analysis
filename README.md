@@ -1,6 +1,5 @@
 # Global-Carbon-Emission-Impact-Analysis
 ![--](https://github.com/Petkofi/Netflix-Content-Analysis-A-Comprehensive-Intelligence-Framework-for-Data-Driven-Decisions/blob/main/divider.png)
-
 ![Carbon Emission Impact Analysis](https://github.com/Petkofi/Global-Carbon-Emission-Impact-Analysis/blob/main/carbon-emission-hero.png)
 
 ![--](https://github.com/Petkofi/Netflix-Content-Analysis-A-Comprehensive-Intelligence-Framework-for-Data-Driven-Decisions/blob/main/divider.png)
