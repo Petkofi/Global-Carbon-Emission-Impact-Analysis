@@ -10,7 +10,7 @@ This project leverages Python's data science stack to analyze the critical relat
 ![--](https://github.com/Petkofi/Netflix-Content-Analysis-A-Comprehensive-Intelligence-Framework-for-Data-Driven-Decisions/blob/main/divider.png)
 
 ## Background
-Atmospheric CO₂ concentrations have surged 50% since pre-industrial levels, creating unprecedented demand for emission intelligence systems. This project builds the analytical infrastructure that converts NOAA and IPCC datasets into precision decarbonization insights—the same tools powering carbon markets, ESG reporting, and the $7.5B climate analytics industry.
+Atmospheric CO₂ concentrations have surged 50% since pre-industrial levels, creating unprecedented demand for emission intelligence systems. This project builds the analytical infrastructure that converts NOAA and IPCC datasets sourced from Statso into precision decarbonization insights-the same tools powering carbon markets, ESG reporting, and the $7.5B climate analytics industry.
 
 ![--](https://github.com/Petkofi/Netflix-Content-Analysis-A-Comprehensive-Intelligence-Framework-for-Data-Driven-Decisions/blob/main/divider.png)
 
@@ -20,7 +20,7 @@ The dataset used in this analysis is sourced from Statso and represents data com
 
 ## Problem Statement
 Climate change, fueled by increasing CO₂ concentrations, has become a pressing global concern, highlighting the urgent need for data-driven insights to inform effective policy-making.
-This analysis seeks to understand the impact of carbon emissions on global temperatures by examining the relationship between key climate variables—including CO₂ concentrations, temperature anomalies, and their temporal dynamics—and how they collectively inform climate response strategies.
+This analysis seeks to understand the impact of carbon emissions on global temperatures by examining the relationship between key climate variables-including CO₂ concentrations, temperature anomalies, and their temporal dynamics-and how they collectively inform climate response strategies.
 
 ### Core Objectives:
 #### Historical Trend Analysis
@@ -40,4 +40,5 @@ The findings will equip policymakers to:
 - Design evidence-based emission reduction strategies
 - Set realistic climate targets grounded in historical and predictive data
 - Prioritize climate actions based on high-impact intervention points
+
 ![--](https://github.com/Petkofi/Netflix-Content-Analysis-A-Comprehensive-Intelligence-Framework-for-Data-Driven-Decisions/blob/main/divider.png)
