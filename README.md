@@ -76,9 +76,14 @@ The time-series analysis reveals a clear upward trend in both CO₂ concentratio
 The correlation heatmap highlights a strong positive relationship (r = 0.96) between CO₂ concentrations and temperature anomalies, confirming that increases in atmospheric CO₂ are closely associated with rising global temperatures. The diagonal line reflects perfect self-correlation, validating the structure of the matrix, while the deep blue hues emphasize the strength of the correlation between key variables. This reinforces the need to focus on reducing carbon emissions as a critical strategy in addressing climate change.
 
 ### Scatter Plot with Marginal Distributions
-![Scatter Plot ]()
+![Scatter Plot ](https://github.com/Petkofi/Global-Carbon-Emission-Impact-Analysis/blob/main/Scatter%20Plot.png)
 
 The scatter plot with marginal distributions illustrates a strong linear relationship between CO₂ concentrations and temperature anomalies, with a Pearson correlation of 0.96. The fitted regression line indicates that a 100 ppm rise in CO₂ could lead to an estimated 3.18°C increase in global temperature, emphasizing climate sensitivity. The marginal histograms show that both variables follow approximately normal distributions, with temperature values ranging from -0.25°C to 1.55°C and CO₂ concentrations from 158.9 to 209.5 ppm. With 62 overlapping data points, the plot provides robust visual and statistical evidence of the strong connection between carbon emissions and global warming, reinforcing the urgency for emission-reduction policies.
+
+### Decadal Analysis with Line Plot
+![Decadal Analysis]()
+
+The decadal analysis reveals an apparent acceleration in both CO₂ concentrations and global temperature anomalies over time. Compared to the 1960s average, CO₂ levels in the most recent decade have risen by approximately 29.9%, reflecting the growing intensity of carbon emissions in recent years. Similarly, global temperatures have increased by 1.45°C since the 1960s, signaling a significant warming trend. This steady rise across decades underscores the long-term impact of sustained greenhouse gas emissions. The analysis not only highlights the pace at which climate change is progressing but also reinforces the need for urgent, data-informed interventions to slow the trajectory of global warming.
 
 ![--](https://github.com/Petkofi/Netflix-Content-Analysis-A-Comprehensive-Intelligence-Framework-for-Data-Driven-Decisions/blob/main/divider.png)
 
