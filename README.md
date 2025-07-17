@@ -90,12 +90,12 @@ The decadal analysis reveals an apparent acceleration in both CO₂ concentratio
 ## Trends and Seasonal Variation Analysis
 Next, I used linear regression to uncover long-term trends and detect any seasonal patterns present in the data.
 ### Trend Analysis
-![Trends Analysis]( )
+![Trends Analysis](https://github.com/Petkofi/Global-Carbon-Emission-Impact-Analysis/blob/main/Trends%20%20Analysis.png)
 
 The linear trend analysis illustrates steady upward trajectories in both temperature anomalies and CO₂ concentrations over time. Temperature is increasing at a rate of 0.26°C per decade with a strong fit (R² = 0.88), indicating a consistent and significant warming trend. CO₂ concentrations are also rising—by 3.2 ppm per decade—though with a weaker fit (R² = 0.04), reflecting more short-term variability in emissions data. Despite the difference in R² values, both trends are statistically significant (p < 0.001), reinforcing the long-term link between rising carbon emissions and global temperature increases.
 
 ### Seasonal Variation Analysis
-![Seasonal Variation Analysis]( )
+![Seasonal Variation Analysis](https://github.com/Petkofi/Global-Carbon-Emission-Impact-Analysis/blob/main/Seasonal%20Variation%20Analysis.png)
 
 The graph illustrates clear seasonal fluctuations in CO₂ concentrations, with levels peaking in May (182.3 ppm) and reaching their lowest in January (178.2 ppm), showing an annual variation of approximately 4.2 ppm. This pattern reflects the natural carbon cycle, where plant growth during spring and summer absorbs more CO₂, while decay and reduced photosynthesis in the winter months lead to higher atmospheric levels. These recurring seasonal shifts highlight the critical role of terrestrial ecosystems in regulating atmospheric carbon dioxide.
 
