@@ -116,6 +116,7 @@ We will now investigate whether past CO₂ concentrations influence current temp
 
 ![Lagged Effects Analysis Results](
 https://github.com/Petkofi/Global-Carbon-Emission-Impact-Analysis/blob/main/Lagged%20Effects%20Analysis.png) 
+
 The lagged effects analysis reveals that current CO₂ levels have a significant and positive impact on temperature anomalies, with a coefficient of 0.3245°C per ppm (p < 0.001). Additionally, CO₂ levels from one year prior also show a significant but negative effect (-0.2962), suggesting a short-term compensatory or delayed adjustment in the climate system. However, lagged CO₂ values from two and three years ago are not statistically significant, indicating minimal delayed influence beyond one year. The model is highly explanatory, with an R-squared of 0.949, meaning it accounts for nearly 95% of the variation in temperature anomalies. Overall, the results highlight the dominant role of current CO₂ emissions and a notable one-year lag effect in driving temperature changes.
 
 ![OLS regression results](https://github.com/Petkofi/Global-Carbon-Emission-Impact-Analysis/blob/main/OLS%20Regression.png)
