@@ -131,8 +131,23 @@ We then use K-Means clustering to categorize years according to patterns in temp
 
 ![Climate Pattern Clusters](https://github.com/Petkofi/Global-Carbon-Emission-Impact-Analysis/blob/main/Clustering%20Climate%20Patterns.png)
 
-The K-Means clustering results divide the data into four distinct groups based on similarities in CO₂ concentrations and temperature anomalies: Low Temp & Low CO₂, Low Temp & High CO₂, High Temp & Low CO₂, and High Temp & High CO₂. This segmentation reveals a clear progression—early years (1960s to 1980s) mostly fall under the Low Temp & Low CO₂ cluster, while recent years (1990s to 2020s) increasingly shift into the High Temp & High CO₂ category. Notably, the High Temp & High CO₂ cluster spans from 1994 to 2022 and dominates the recent decades, suggesting a sustained rise in both carbon emissions and temperature anomalies.
+The K-Means clustering results divide the data into four distinct groups based on similarities in CO₂ concentrations and temperature anomalies: Low Temp & Low CO₂, Low Temp & High CO₂, High Temp & Low CO₂, and High Temp & High CO₂. This segmentation reveals a clear progression: early years (1960s to 1980s) mostly fall under the Low Temp & Low CO₂ cluster, while recent years (1990s to 2020s) increasingly shift into the High Temp & High CO₂ category. Notably, the High Temp & High CO₂ cluster spans from 1994 to 2022 and dominates the recent decades, suggesting a sustained rise in both carbon emissions and temperature anomalies.
 
-This clustering pattern highlights the growing impact of rising CO₂ concentrations on global temperatures over time. It demonstrates how climate behavior has shifted significantly, with a marked increase in high-temperature years closely associated with elevated CO₂ levels—underscoring the urgency for effective climate mitigation strategies.
+This clustering pattern highlights the growing impact of rising CO₂ concentrations on global temperatures over time. It demonstrates how climate behavior has shifted significantly, with a marked increase in high-temperature years closely associated with elevated CO₂ levels-underscoring the urgency for effective climate mitigation strategies.
+
+![--](https://github.com/Petkofi/Netflix-Content-Analysis-A-Comprehensive-Intelligence-Framework-for-Data-Driven-Decisions/blob/main/divider.png)
+
+## Temperature Changes Prediction Under What-If Analysis
+Next, we apply a simple linear regression model to explore how variations in CO₂ concentrations could potentially affect global temperature anomalies. By modeling the historical link between CO₂ levels and temperature changes, we can project future outcomes under different emission scenarios.
+
+To begin, we train a linear regression model using historical CO₂ concentrations as the predictor and corresponding temperature anomalies as the response variable. After training, we use this model to simulate various hypothetical futures by adjusting the average CO₂ concentration by a given percentage.
+
+For each scenario, we modify the current CO₂ average accordingly, input the new value into the model, and generate the predicted temperature anomaly. The scenarios analyzed include:
+
+![Climate Scenario Prediction]()
+
+![Temperature Change Prediction](https://github.com/Petkofi/Global-Carbon-Emission-Impact-Analysis/blob/main/Temperature%20Change%20Prediction.png)
+
+Based on the simulation results, a 20% increase in CO₂ levels could lead to a temperature rise of approximately 1.15°C, highlighting a strong warming effect under high-emission scenarios. Similarly, a 10% increase projects a moderate warming of around 0.57°C. On the other hand, reducing CO₂ by 10% or 20% results in cooling of 0.57°C and 1.15°C respectively, indicating that substantial emission cuts could significantly reverse current warming trends. With an R² score of 0.913 and a standard error of ±0.15°C, the model demonstrates strong predictive performance and suggests that global temperatures are highly sensitive-about 3.18°C per 100 ppm-to changes in atmospheric CO₂ levels.
 
 ![--](https://github.com/Petkofi/Netflix-Content-Analysis-A-Comprehensive-Intelligence-Framework-for-Data-Driven-Decisions/blob/main/divider.png)
