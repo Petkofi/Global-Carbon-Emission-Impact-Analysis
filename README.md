@@ -105,6 +105,7 @@ The graph illustrates clear seasonal fluctuations in CO₂ concentrations, with 
 To better understand the relationship between CO₂ concentrations and temperature anomalies, we will estimate both Pearson and Spearman correlation coefficients to measure the strength and direction of their association. Additionally, we will conduct Granger Causality tests to explore whether changes in CO₂ levels can be used to predict or potentially drive changes in global temperature.
 
 ![Correlation Coefficient](https://github.com/Petkofi/Global-Carbon-Emission-Impact-Analysis/blob/main/Correlation%20Coefficients.png)
+
 ![granger Causality](https://github.com/Petkofi/Global-Carbon-Emission-Impact-Analysis/blob/main/Granger%20Causality.png)
 
 The Pearson correlation coefficient (0.955) indicates a very strong linear relationship between CO₂ concentrations and temperature anomalies, while the Spearman correlation (0.938) also confirms a very strong monotonic relationship, meaning that as CO₂ levels increase, temperature anomalies tend to increase consistently. However, the Granger causality test results show p-values of 0.0617 (lag 1), 0.6754 (lag 2), and 0.2994 (lag 3). The p-value for lag 1 is slightly above the common significance threshold of 0.05, suggesting weak evidence of causality, while lags 2 and 3 are not statistically significant, indicating no evidence of causality. Therefore, although CO₂ concentrations and temperature anomalies are strongly correlated, the Granger causality test does not provide strong evidence that CO₂ changes directly cause temperature anomalies within the lags tested.
@@ -114,8 +115,7 @@ The Pearson correlation coefficient (0.955) indicates a very strong linear relat
 ## Lagged Effects Analysis
 We will now investigate whether past CO₂ concentrations influence current temperature anomalies by introducing lagged variables—shifting CO₂ data by 1, 2, and 3 years. This approach helps assess any lagged effects that historical CO₂ levels may have on present-day temperature changes. Using these lagged values, we will construct an Ordinary Least Squares (OLS) regression model, with both current and lagged CO₂ concentrations as predictors. The goal is to evaluate the extent to which present and past CO₂ levels contribute to temperature anomalies and to identify whether there is a statistically significant lagged impact over time.
 
-![Lagged Effects Analysis Results](
-https://github.com/Petkofi/Global-Carbon-Emission-Impact-Analysis/blob/main/Lagged%20Effects%20Analysis.png) 
+![Lagged Effects Analysis Results](https://github.com/Petkofi/Global-Carbon-Emission-Impact-Analysis/blob/main/Lagged%20Effects%20Analysis.png) 
 
 The lagged effects analysis reveals that current CO₂ levels have a significant and positive impact on temperature anomalies, with a coefficient of 0.3245°C per ppm (p < 0.001). Additionally, CO₂ levels from one year prior also show a significant but negative effect (-0.2962), suggesting a short-term compensatory or delayed adjustment in the climate system. However, lagged CO₂ values from two and three years ago are not statistically significant, indicating minimal delayed influence beyond one year. The model is highly explanatory, with an R-squared of 0.949, meaning it accounts for nearly 95% of the variation in temperature anomalies. Overall, the results highlight the dominant role of current CO₂ emissions and a notable one-year lag effect in driving temperature changes.
 
@@ -129,7 +129,7 @@ The OLS regression results demonstrate a strong relationship between CO₂ level
 ## Clustering Climate Patterns
 We then use K-Means clustering to categorize years according to patterns in temperature anomalies and CO₂ concentrations.
 
-![Climate Pattern Clusters]()
+![Climate Pattern Clusters](https://github.com/Petkofi/Global-Carbon-Emission-Impact-Analysis/blob/main/Clustering%20Climate%20Patterns.png)
 
 The K-Means clustering results divide the data into four distinct groups based on similarities in CO₂ concentrations and temperature anomalies: Low Temp & Low CO₂, Low Temp & High CO₂, High Temp & Low CO₂, and High Temp & High CO₂. This segmentation reveals a clear progression—early years (1960s to 1980s) mostly fall under the Low Temp & Low CO₂ cluster, while recent years (1990s to 2020s) increasingly shift into the High Temp & High CO₂ category. Notably, the High Temp & High CO₂ cluster spans from 1994 to 2022 and dominates the recent decades, suggesting a sustained rise in both carbon emissions and temperature anomalies.
 
