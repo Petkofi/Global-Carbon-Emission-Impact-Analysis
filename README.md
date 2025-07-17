@@ -104,8 +104,8 @@ The graph illustrates clear seasonal fluctuations in CO₂ concentrations, with 
 ## Correlation and Causality Analysis
 To better understand the relationship between CO₂ concentrations and temperature anomalies, we will estimate both Pearson and Spearman correlation coefficients to measure the strength and direction of their association. Additionally, we will conduct Granger Causality tests to explore whether changes in CO₂ levels can be used to predict or potentially drive changes in global temperature.
 
-![Correlation Coefficient]( )
-![granger Causality]( )
+![Correlation Coefficient](https://github.com/Petkofi/Global-Carbon-Emission-Impact-Analysis/blob/main/Correlation%20Coefficients.png)
+![granger Causality](https://github.com/Petkofi/Global-Carbon-Emission-Impact-Analysis/blob/main/Granger%20Causality.png)
 
 The Pearson correlation coefficient (0.955) indicates a very strong linear relationship between CO₂ concentrations and temperature anomalies, while the Spearman correlation (0.938) also confirms a very strong monotonic relationship, meaning that as CO₂ levels increase, temperature anomalies tend to increase consistently. However, the Granger causality test results show p-values of 0.0617 (lag 1), 0.6754 (lag 2), and 0.2994 (lag 3). The p-value for lag 1 is slightly above the common significance threshold of 0.05, suggesting weak evidence of causality, while lags 2 and 3 are not statistically significant, indicating no evidence of causality. Therefore, although CO₂ concentrations and temperature anomalies are strongly correlated, the Granger causality test does not provide strong evidence that CO₂ changes directly cause temperature anomalies within the lags tested.
 
