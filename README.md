@@ -144,7 +144,7 @@ To begin, we train a linear regression model using historical CO₂ concentratio
 
 For each scenario, we modify the current CO₂ average accordingly, input the new value into the model, and generate the predicted temperature anomaly. The scenarios analyzed include:
 
-![Climate Scenario Prediction]()
+![Climate Scenario Prediction](https://github.com/Petkofi/Global-Carbon-Emission-Impact-Analysis/blob/main/Climate%20Scenario%20Projections.png)
 
 ![Temperature Change Prediction](https://github.com/Petkofi/Global-Carbon-Emission-Impact-Analysis/blob/main/Temperature%20Change%20Prediction.png)
 
