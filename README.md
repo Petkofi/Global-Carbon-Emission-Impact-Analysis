@@ -119,9 +119,20 @@ https://github.com/Petkofi/Global-Carbon-Emission-Impact-Analysis/blob/main/Lagg
 
 The lagged effects analysis reveals that current CO₂ levels have a significant and positive impact on temperature anomalies, with a coefficient of 0.3245°C per ppm (p < 0.001). Additionally, CO₂ levels from one year prior also show a significant but negative effect (-0.2962), suggesting a short-term compensatory or delayed adjustment in the climate system. However, lagged CO₂ values from two and three years ago are not statistically significant, indicating minimal delayed influence beyond one year. The model is highly explanatory, with an R-squared of 0.949, meaning it accounts for nearly 95% of the variation in temperature anomalies. Overall, the results highlight the dominant role of current CO₂ emissions and a notable one-year lag effect in driving temperature changes.
 
+
 ![OLS regression results](https://github.com/Petkofi/Global-Carbon-Emission-Impact-Analysis/blob/main/OLS%20Regression.png)
 
 The OLS regression results demonstrate a strong relationship between CO₂ levels and temperature, with an R-squared value of 0.949, indicating that approximately 94.9% of the variation in temperature is explained by the model. The coefficient for current CO₂ concentration (0.3245) is statistically significant (p < 0.001), suggesting a positive and substantial association between CO₂ levels and temperature. Additionally, the one-period lag of CO₂ (CO2_Lag_1) is also statistically significant (coefficient = -0.2962, p < 0.001) but shows a negative effect, indicating possible short-term dynamics or adjustments in the system. In contrast, the two- and three-period lags (CO2_Lag_2 and CO2_Lag_3) are not statistically significant (p > 0.8), implying limited influence of CO₂ beyond one lag period. Overall, the model provides strong evidence of an immediate and significant impact of CO₂ on temperature variations.
 
 ![--](https://github.com/Petkofi/Netflix-Content-Analysis-A-Comprehensive-Intelligence-Framework-for-Data-Driven-Decisions/blob/main/divider.png)
 
+## Clustering Climate Patterns
+We then use K-Means clustering to categorize years according to patterns in temperature anomalies and CO₂ concentrations.
+
+![Climate Pattern Clusters]()
+
+The K-Means clustering results divide the data into four distinct groups based on similarities in CO₂ concentrations and temperature anomalies: Low Temp & Low CO₂, Low Temp & High CO₂, High Temp & Low CO₂, and High Temp & High CO₂. This segmentation reveals a clear progression—early years (1960s to 1980s) mostly fall under the Low Temp & Low CO₂ cluster, while recent years (1990s to 2020s) increasingly shift into the High Temp & High CO₂ category. Notably, the High Temp & High CO₂ cluster spans from 1994 to 2022 and dominates the recent decades, suggesting a sustained rise in both carbon emissions and temperature anomalies.
+
+This clustering pattern highlights the growing impact of rising CO₂ concentrations on global temperatures over time. It demonstrates how climate behavior has shifted significantly, with a marked increase in high-temperature years closely associated with elevated CO₂ levels—underscoring the urgency for effective climate mitigation strategies.
+
+![--](https://github.com/Petkofi/Netflix-Content-Analysis-A-Comprehensive-Intelligence-Framework-for-Data-Driven-Decisions/blob/main/divider.png)
