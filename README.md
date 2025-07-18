@@ -110,7 +110,7 @@ The Pearson correlation coefficient (0.955) indicates a very strong linear relat
 ![--](https://github.com/Petkofi/Netflix-Content-Analysis-A-Comprehensive-Intelligence-Framework-for-Data-Driven-Decisions/blob/main/divider.png)
 
 ## Lagged Effects Analysis
-We will now investigate whether past CO₂ concentrations influence current temperature anomalies by introducing lagged variables—shifting CO₂ data by 1, 2, and 3 years. This approach helps assess any lagged effects that historical CO₂ levels may have on present-day temperature changes. Using these lagged values, we will construct an Ordinary Least Squares (OLS) regression model, with both current and lagged CO₂ concentrations as predictors. The goal is to evaluate the extent to which present and past CO₂ levels contribute to temperature anomalies and to identify whether there is a statistically significant lagged impact over time.
+We will now investigate whether past CO₂ concentrations influence current temperature anomalies by introducing lagged variables shifting CO₂ data by 1, 2, and 3 years. This approach helps assess any lagged effects that historical CO₂ levels may have on present-day temperature changes. Using these lagged values, we will construct an Ordinary Least Squares (OLS) regression model, with both current and lagged CO₂ concentrations as predictors. The goal is to evaluate the extent to which present and past CO₂ levels contribute to temperature anomalies and to identify whether there is a statistically significant lagged impact over time.
 
 ![Lagged Effects Analysis Results](https://github.com/Petkofi/Global-Carbon-Emission-Impact-Analysis/blob/main/Lagged%20Effects%20Analysis.png) 
 
