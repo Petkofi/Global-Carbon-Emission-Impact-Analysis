@@ -27,7 +27,7 @@ As global temperatures continue to rise, the role of carbon dioxide (CO₂) emis
 - Analyze long-term trends linking CO₂ concentrations with global temperature anomalies
 - Evaluate the impact of industrial activities on rising emissions and temperature changes
 
-#### 2. Climate Clustering & Pattern Recognition
+#### 2. Climate Clustering and Pattern Recognition
 - Group years with similar climate conditions based on CO₂ and temperature data
 - Reveal hidden patterns and transitional phases in climate behavior over time
 
