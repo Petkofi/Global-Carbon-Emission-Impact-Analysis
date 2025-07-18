@@ -89,7 +89,7 @@ Next, I used linear regression to uncover long-term trends and detect any season
 ### Trend Analysis
 ![Trends Analysis](https://github.com/Petkofi/Global-Carbon-Emission-Impact-Analysis/blob/main/Trends%20%20Analysis.png)
 
-The linear trend analysis illustrates steady upward trajectories in both temperature anomalies and CO₂ concentrations over time. Temperature is increasing at a rate of 0.26°C per decade with a strong fit (R² = 0.88), indicating a consistent and significant warming trend. CO₂ concentrations are also rising—by 3.2 ppm per decade—though with a weaker fit (R² = 0.04), reflecting more short-term variability in emissions data. Despite the difference in R² values, both trends are statistically significant (p < 0.001), reinforcing the long-term link between rising carbon emissions and global temperature increases.
+The linear trend analysis illustrates steady upward trajectories in both temperature anomalies and CO₂ concentrations over time. Temperature is increasing at a rate of 0.26°C per decade with a strong fit (R² = 0.88), indicating a consistent and significant warming trend. CO₂ concentrations are also rising by 3.2 ppm per decade, though with a weaker fit (R² = 0.04), reflecting more short-term variability in emissions data. Despite the difference in R² values, both trends are statistically significant (p < 0.001), reinforcing the long-term link between rising carbon emissions and global temperature increases.
 
 ### Seasonal Variation Analysis
 ![Seasonal Variation Analysis](https://github.com/Petkofi/Global-Carbon-Emission-Impact-Analysis/blob/main/Seasonal%20Variation%20Analysis.png)
