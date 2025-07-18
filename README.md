@@ -52,7 +52,7 @@ I loaded this dataset into the Google Colab environment. Below is the preview:
 ![--](https://github.com/Petkofi/Netflix-Content-Analysis-A-Comprehensive-Intelligence-Framework-for-Data-Driven-Decisions/blob/main/divider.png)
 
 ## Basic Statistics for Temperature Changes and Carbon Emission Concentration
-Next, I computed essential statistical measures—such as the mean, median, variance, etc, for both temperature anomalies and CO₂ concentrations.
+Next, I computed essential statistical measures such as the mean, median, variance, etc, for both temperature anomalies and CO₂ concentrations.
 
 ![Basic Stats](https://github.com/Petkofi/Global-Carbon-Emission-Impact-Analysis/blob/main/Basic%20Stats.png)
 
